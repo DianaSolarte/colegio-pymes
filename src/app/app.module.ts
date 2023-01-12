@@ -17,6 +17,7 @@ import { CampusComponent } from './campus/campus.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { QualityComponent } from './quality/quality.component';
 import { UbicationComponent } from './ubication/ubication.component';
+import { ProgramCardComponent } from './program-card/program-card.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { UbicationComponent } from './ubication/ubication.component';
     CampusComponent,
     ContactUsComponent,
     QualityComponent,
-    UbicationComponent
+    UbicationComponent,
+    ProgramCardComponent
   ],
   imports: [
     BrowserModule,
