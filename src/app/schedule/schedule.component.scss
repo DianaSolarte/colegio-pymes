@@ -1,0 +1,145 @@
+
+$font-stack: Poppins;
+$font-bold: Poppins, Extrabold;
+$primary-color: #1B277B;
+$second-color: #ffffff;
+$third-color: #AB8713;
+$card-day-color: #035A76;
+$card-saturday-color: #690F8E;
+$card-sunday-color:#B00024;
+
+.schedule-container{
+  background-color: #F7F4F4;
+}
+
+.schedule_title{
+  font-family: $font-stack;
+  color: $primary-color;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.schedule_title2{
+  font-family: $font-stack;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.schedule_tarjetas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.card {
+  height: 306px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color:$second-color;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 2px #00000010;
+
+}
+
+
+.card_title_day {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: .75rem 0;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid var(--background-azul-claro);
+  color: $card-day-color;
+
+}
+
+.card_title_saturday {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: .75rem 0;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid var(--background-azul-claro);
+  color: $card-saturday-color;
+}
+
+
+.card_title_sunday {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: .75rem 0;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid var(--background-azul-claro);
+  color: #B00024;
+}
+
+.card_content{
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: $font-stack;
+}
+.card_shedule_day{
+  color:$card-day-color;
+  font-family: $font-stack;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.card_shedule_saturday{
+  color:#690F8E;
+  font-family: $font-stack;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card_shedule_sunday{
+  color:$card-sunday-color;
+  font-family: $font-stack;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.schedule_title3{
+  font-family: $font-stack;
+  color: $primary-color;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.application{
+  font-family: $font-bold;
+  padding: 1em 2.1em 1.1em;
+  border-radius: 8px;
+  margin: 35px 35px 8px 8px;
+  color: #fbdedb;
+  background-color: #fbdedb;
+  background: $third-color;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

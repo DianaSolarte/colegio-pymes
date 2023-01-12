@@ -1,0 +1,53 @@
+$font-stack: Poppins;
+$font-bold: Poppins, Extrabold;
+$primary-color: #1B277B;
+$second-color: #fbdedb;
+$third-color: #AB8713;
+
+h5.title{
+  background: black;
+  color: white;
+}
+
+button{
+
+  color: black !important;
+}
+
+button.sign_up{
+  font-family: $font-bold;
+  padding: 1em 2.1em 1.1em;
+  border-radius: 8px;
+  margin: 8px 8px 8px 8px;
+  color: $second-color;
+  background-color: $second-color;
+  display: inline-block;
+  background: $third-color;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 800;
+  font-size: .85em;
+  text-align: center;
+  text-decoration: none;
+}
+
+button.admissions{
+  font-family: $font-bold;
+  padding: 1em 2.1em 1.1em;
+  border-radius: 8px;
+  margin: 8px 8px 8px 8px;
+  color: $second-color;
+  background-color: $second-color;
+  display: inline-block;
+  background: $third-color;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 800;
+  font-size: .85em;
+  text-align: center;
+  text-decoration: none;
+}

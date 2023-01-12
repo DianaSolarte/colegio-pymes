@@ -1,0 +1,37 @@
+$font-stack: Poppins;
+$font-bold: Poppins, Extrabold;
+$primary-color: #1B277B;
+$second-color: #fbdedb;
+$third-color: #AB8713;
+
+.medal{
+  grid-template-columns: repeat(9, 1fr);
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex: space-evenly;
+}
+h3.title_highschool{
+  background-color: $primary-color;
+  color:$second-color;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  font-family: $font-bold;
+  font-size: 20px;
+}
+img.medal_primary{
+  margin-right: 2%;
+  margin-top: 5%;
+}
+img.medal_billingue{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+}
+
+img.medal_highschool{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+}
