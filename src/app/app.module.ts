@@ -14,6 +14,8 @@ import { MedalComponent } from './medal/medal.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { CampusComponent } from './campus/campus.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { QualityComponent } from './quality/quality.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { CampusComponent } from './campus/campus.component';
     MedalComponent,
     ProgramsComponent,
     ScheduleComponent,
-    CampusComponent
+    CampusComponent,
+    ContactUsComponent,
+    QualityComponent
   ],
   imports: [
     BrowserModule,
