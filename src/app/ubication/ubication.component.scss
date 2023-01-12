@@ -1,0 +1,23 @@
+.ubication_title{
+  font-family: $font-stack;
+  color: $primary-color;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}

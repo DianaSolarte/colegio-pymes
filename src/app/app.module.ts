@@ -16,6 +16,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { CampusComponent } from './campus/campus.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { QualityComponent } from './quality/quality.component';
+import { UbicationComponent } from './ubication/ubication.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { QualityComponent } from './quality/quality.component';
     ScheduleComponent,
     CampusComponent,
     ContactUsComponent,
-    QualityComponent
+    QualityComponent,
+    UbicationComponent
   ],
   imports: [
     BrowserModule,
