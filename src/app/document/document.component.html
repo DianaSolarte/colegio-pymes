@@ -1,10 +1,9 @@
 <section>
-  <div class="list">
-    <div class="list-service">
-      <app-document-list></app-document-list>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{program.name}}</h5>
+        <p class="card-text">{{program.description}}</p>
+      </div>
+      <img width="200" [src]="program.image" class="card-img-bottom" alt="...">
     </div>
-  <div class="cart">
-    <app-cart></app-cart>
-  </div>
-  </div>
 </section>

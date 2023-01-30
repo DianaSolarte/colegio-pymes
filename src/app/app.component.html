@@ -8,7 +8,7 @@
 <app-quality></app-quality>
 <app-ubication></app-ubication>
 <app-cart></app-cart>
-<app-document></app-document>
+<app-document [program]="program" *ngFor="let program of programs"></app-document>
 <app-document-list></app-document-list>
 <app-footer></app-footer>
 
