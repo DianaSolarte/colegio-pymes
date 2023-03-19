@@ -1,9 +1,11 @@
 <section>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">{{program.name}}</h5>
-        <p class="card-text">{{program.description}}</p>
+    <div class="card-group">
+      <div class="card">
+        <img width="200" [src]="program.image" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{program.name}}</h5>
+          <p class="card-text">{{program.description}}</p>
+        </div>
       </div>
-      <img width="200" [src]="program.image" class="card-img-bottom" alt="...">
     </div>
 </section>

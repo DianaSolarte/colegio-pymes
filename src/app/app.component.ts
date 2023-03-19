@@ -7,30 +7,31 @@ import {Programs} from './models/program.model';
 })
 export class AppComponent {
   title = 'pymes';
-  programs: Programs []=[
+  programs: Programs[] = [
     {
       id: '1',
       name: 'Auxiliar Bancario',
       description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-      image: 'assets/programs-img/administrator-business.png'
+      image: 'assets/programs-img/aux-bank.png'
     },
+
     {
       id: '2',
       name: 'Auxiliar de Personal',
       description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-      image: 'assets/programs-img/administrator-business.png'
+      image: 'assets/programs-img/aux-pers.png'
     },
     {
       id: '3',
       name: 'Auxiliar de Mercadeo',
       description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-      image: 'assets/programs-img/administrator-business.png'
+      image: 'assets/programs-img/aux-merc.png'
     },
     {
       id: '4',
       name: 'Auxiliar Administrativo',
       description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-      image: 'assets/programs-img/administrator-business.png'
+      image: 'assets/programs-img/analysis.png'
     },
     {
       id: '5',
@@ -42,7 +43,7 @@ export class AppComponent {
       id: '6',
       name: 'Organizador de Eventos',
       description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-      image: 'assets/programs-img/administrator-business.png'
+      image: 'assets/programs-img/analysis.png'
     },
     {
       id: '7',
@@ -54,7 +55,7 @@ export class AppComponent {
       id: '8',
       name: 'Asistente Contable y Financiero',
       description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-      image: 'assets/programs-img/administrator-business.png'
+      image: 'assets/programs-img/analysis.png'
     },
     {
       id: '9',

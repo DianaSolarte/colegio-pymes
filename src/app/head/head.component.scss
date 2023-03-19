@@ -6,38 +6,88 @@ $third-color: #AB8713;
 
 body{
   background-color: $primary-color;
+  padding-left: 2%;
 }
 
-section.head{
-  font-family: $font-stack;
-  color: $second-color;
+.head {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0.8rem;
   background-color: $primary-color;
-  display: grid;
-  grid-template-columns: repeat(3, 5fr);
-  padding-left: 5%;
-  padding-right: 5%;
+  color:$second-color;
 }
 
-h5.telefono{
+.Telefono{
+  font-size: 1.3vw;
+  margin-bottom: 1rem;
+}
+
+#btn{
+  font-size: 1rem;
+  background-color:#AB8713 ;
+  border: #AB8713;
 
 }
-button{
-  font-family: $font-bold;
-  padding: 1em 2.1em 1.1em;
-  border-radius: 8px;
-  margin: 8px 8px 8px 8px;
-  color: #fbdedb;
-  background-color: #fbdedb;
-  display: inline-block;
-  background: $third-color;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  font-weight: 800;
-  font-size: .85em;
-  text-align: center;
-  text-decoration: none;
+#btn:hover {
+  background-color: #3e8e41; /* Cambiamos el color de fondo */
+}
 
+@media screen and (max-width: 700px) {
+  .head {
+    justify-content: space-evenly;
+  }
+  .Telefono {
+    font-size: 1rem;
+  }
+
+  #btn {
+    font-size: 0.8rem;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Telefono {
+    font-size: 0.8rem;
+  }
+
+  #btn {
+    font-size: 0.8rem;
+    width: 30%;
+  }
+}
+
+@media screen and  (max-width: 380px) {
+  .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .Telefono {
+  font-size: 0.9rem;
+  }
+  #btn {
+  font-size: 0.8rem;
+  width: 30%;
+  }
+}
+
+@media (min-width: 281px) {
+  .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .Telefono {
+  font-size: 18px;
+  }
+  #btn {
+  font-size: 16px;
+  padding: 10px 16px;
+  }
 }
 

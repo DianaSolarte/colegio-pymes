@@ -33,122 +33,44 @@ $card-sunday-color:#B00024;
 }
 
 .card {
-  height: 550px;
-  width: 300px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  background-color:$second-color;
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 2rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px 2px #00000010;
-  align-items: center;
-
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 
-.card_content_admi {
 
-  font-weight: 700;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: .75rem 0;
-  margin-bottom: .5rem;
-
+// <!---------------- Card Title--------------------------->
+#card-title-admi {
   color: $card-day-color;
-
 }
 
-.card_content_arts {
-  font-weight: 700;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: .75rem 0;
-  margin-bottom: .5rem;
-  border-bottom: 1px solid var(--background-azul-claro);
+#card-title-arts {
   color: $card-saturday-color;
 }
 
-
-.card_content_engi {
-  font-weight: 700;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: .75rem 0;
-  margin-bottom: .5rem;
-  border-bottom: 1px solid var(--background-azul-claro);
-  color: #B00024;
+#card-title-engi {
+  color: $card-sunday-color;
 }
 
-.icon{
-  margin-bottom: 7%;
-}
-.button-admi{
-  font-family: $font-bold;
-  padding: 1em 2.1em 1.1em;
-  border-radius: 8px;
-  margin: 35px 35px 8px 8px;
-  color: #fbdedb;
-  background-color: #fbdedb;
+// <!---------------- Card Button--------------------------->
+
+#btn-admi{
   background: $card-day-color;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  font-weight: 800;
-  font-size: 1.3rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.button-arts{
-  font-family: $font-bold;
-  padding: 1em 2.1em 1.1em;
-  border-radius: 8px;
-  margin: 35px 35px 8px 8px;
-  color: #fbdedb;
-  background-color: #fbdedb;
-  background: $card-saturday-color;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  font-weight: 800;
-  font-size: 1.3rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.button-engi{
-  font-family: $font-bold;
-  padding: 1em 2.1em 1.1em;
-  border-radius: 8px;
-  margin: 35px 35px 8px 8px;
-  color: #fbdedb;
-  background-color: #fbdedb;
-  background: $card-sunday-color;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  font-weight: 800;
-  font-size: 1.3rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  border: $card-day-color;
 
-.card_title_engi{
-  padding-bottom: 58.5px;
+}
+#btn-arts{
+  background: $card-saturday-color;
+  border: $card-saturday-color;
+}
+#btn-engi{
+  background: $card-sunday-color;
+  border: $card-sunday-color;
+}
+// <!---------------- Responsive --------------------------->
+@media screen and (max-width: 954px) {
+  #programs_card {
+    flex-direction: column;
+    align-items: center;
+  }
 }
