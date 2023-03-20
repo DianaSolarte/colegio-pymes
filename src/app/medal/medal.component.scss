@@ -11,7 +11,7 @@ h3.title_highschool{
   padding-top: 2.5%;
   padding-bottom: 2.5%;
   font-family: $font-bold;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: 800;
 
 }
@@ -20,7 +20,7 @@ h3.title_highschool{
   grid-template-columns: repeat(3, 1fr);
   gap: 2.8rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #img-m{

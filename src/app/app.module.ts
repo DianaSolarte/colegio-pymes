@@ -11,7 +11,6 @@ import { CartComponent } from './cart/cart.component';
 import { DocumentComponent } from './document/document.component';
 import { DocumentListComponent } from './document-list/document-list.component';
 import { MedalComponent } from './medal/medal.component';
-import { ProgramsComponent } from './programs/programs.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { CampusComponent } from './campus/campus.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
@@ -30,7 +29,6 @@ import { ProgramCardComponent } from './program-card/program-card.component';
     DocumentComponent,
     DocumentListComponent,
     MedalComponent,
-    ProgramsComponent,
     ScheduleComponent,
     CampusComponent,
     ContactUsComponent,

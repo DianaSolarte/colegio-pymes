@@ -5,8 +5,12 @@
 
 }
 
+.navbar-nav a {
+  font-weight: bold;
+}
+
 
 .navbar-nav a:hover {
-  font-size: 18px;
   color: blue;
+  font-weight: bold;
 }
