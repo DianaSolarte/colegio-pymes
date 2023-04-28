@@ -11,13 +11,13 @@ import { CartComponent } from './cart/cart.component';
 import { DocumentComponent } from './document/document.component';
 import { DocumentListComponent } from './document-list/document-list.component';
 import { MedalComponent } from './medal/medal.component';
-import { ProgramsComponent } from './programs/programs.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { CampusComponent } from './campus/campus.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { QualityComponent } from './quality/quality.component';
 import { UbicationComponent } from './ubication/ubication.component';
 import { ProgramCardComponent } from './program-card/program-card.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +30,13 @@ import { ProgramCardComponent } from './program-card/program-card.component';
     DocumentComponent,
     DocumentListComponent,
     MedalComponent,
-    ProgramsComponent,
     ScheduleComponent,
     CampusComponent,
     ContactUsComponent,
     QualityComponent,
     UbicationComponent,
-    ProgramCardComponent
+    ProgramCardComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
