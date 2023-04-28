@@ -1,4 +1,4 @@
-export interface Programs{
+export interface Programs {
   id: string;
   name: string;
   description: string;

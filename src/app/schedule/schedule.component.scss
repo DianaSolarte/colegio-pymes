@@ -7,140 +7,99 @@ $third-color: #AB8713;
 $card-day-color: #035A76;
 $card-saturday-color: #690F8E;
 $card-sunday-color:#B00024;
-
-.schedule-container{
-  background-color: #F7F4F4;
-}
-
-.schedule_title{
-  font-family: $font-stack;
-  color: $primary-color;
+.schedule-container {
+  background-color: #1B277B;
+  color: white;
   text-align: center;
-  font-weight: 800;
-  font-size: 2.5rem;
-}
-.schedule_title2{
-  font-family: $font-stack;
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 80px 0;
 }
 
-.schedule_cards{
+.schedule-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.schedule-title h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.schedule-title h3 {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.schedule-info {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  text-decoration: none;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
-.card {
-  height: 306px;
-  width: 300px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  background-color:$second-color;
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 2rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px 2px #00000010;
-
-}
-
-
-.card_title_day {
-  font-weight: 700;
-  font-size: 2.5rem;
+.schedule-day {
+  background-color: #035A76;
+  border-radius: 20px;
+  padding: 40px;
   text-align: center;
-  padding: .75rem 0;
-  margin-bottom: .5rem;
-  border-bottom: 1px solid var(--background-azul-claro);
-  color: $card-day-color;
-
+  flex-basis: calc(33.33% - 40px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
-
-.card_title_saturday {
-  font-weight: 700;
-  font-size: 2.5rem;
+.schedule-saturday {
+  background-color: #690F8E;
+  border-radius: 20px;
+  padding: 40px;
   text-align: center;
-  padding: .75rem 0;
-  margin-bottom: .5rem;
-  border-bottom: 1px solid var(--background-azul-claro);
-  color: $card-saturday-color;
+  flex-basis: calc(33.33% - 40px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
-
-
-.card_title_sunday {
-  font-weight: 700;
-  font-size: 2.5rem;
+.schedule-sunday {
+  background-color: #B00024;
+  border-radius: 20px;
+  padding: 40px;
   text-align: center;
-  padding: .75rem 0;
-  margin-bottom: .5rem;
-  border-bottom: 1px solid var(--background-azul-claro);
-  color: #B00024;
-}
-
-.card_content{
-  font-size: 1.2rem;
-  text-align: center;
-  font-family: $font-stack;
-}
-.card_shedule_day{
-  color:$card-day-color;
-  font-family: $font-stack;
-  font-size: 1.2rem;
-  text-align: center;
-  font-weight: 600;
+  flex-basis: calc(33.33% - 40px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
 
 
-.card_shedule_saturday{
-  color:#690F8E;
-  font-family: $font-stack;
-  font-size: 1.2rem;
-  text-align: center;
-  font-weight: 600;
+.schedule-day:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+.schedule-saturday:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+.schedule-sunday:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 
-.card_shedule_sunday{
-  color:$card-sunday-color;
-  font-family: $font-stack;
-  font-size: 1.2rem;
-  text-align: center;
-  line-height: 48px;
-  font-weight: 600;
+
+.schedule-saturday,
+.schedule-sunday,
+.schedule-day h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-.schedule_title3{
-  font-family: $font-stack;
-  color: $primary-color;
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.7rem;
-  padding-bottom: 5%;
+.schedule-saturday,
+.schedule-sunday,
+.schedule-day p {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.application{
-  font-family: $font-bold;
-  padding: 1em 2.1em 1.1em;
-  border-radius: 8px;
-  margin: 35px 35px 8px 8px;
-  color: #fbdedb;
-  background-color: #fbdedb;
-  background: $third-color;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  font-weight: 800;
-  font-size: 1.3rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 
+.schedule-description {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .shedule-info{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

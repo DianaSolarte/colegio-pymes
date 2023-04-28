@@ -13,15 +13,18 @@ $card-sunday-color:#B00024;
   font-family: $font-stack;
   color: $primary-color;
   text-align: center;
-  font-weight: 800;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 2rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .map-responsive{
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  padding-left: 10%;
+
 }
 
 .map-responsive iframe{
@@ -30,5 +33,58 @@ $card-sunday-color:#B00024;
   height:100%;
   width:100%;
   position:absolute;
+
+}
+#tituloh1, #parrafoh1{
+  display: inline;
+  font-size: 24px;
+  margin: 0;
+}
+.contain-title {
+  position: relative;
+  height: 20vh;
+  width: 100%;
+
+}
+.children__title {
+  position: absolute;
+  left: 220px;
+  top: 20px;
+
+}
+
+#tituloh1 {
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.5px !important;
+  line-height: 150%;
+  /* identical to box height, or 91px */
+
+  color:rgba(116, 116, 116, 0.21);
+  letter-spacing: -0.019em;
+  display: block;
+  margin-bottom: 3hv;
+  margin-top: 30px; /* Ajusta el margen superior para que se separe del título 2 */
+  margin-left: 100px; /* Ajusta el margen izquierdo para que esté a la derecha del título 2 */
+}
+
+
+#tituloh2 {
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.5px;
+  line-height: 150%;
+  /* identical to box height, or 91px */
+
+  color: #1B277B;
+  letter-spacing: -0.019em;
+  display: block;
+  margin-bottom: 3hv;
+  margin-left: 3hv;
+  margin-bottom: 30px; /* Ajusta el margen inferior para que se separe del título 1 */
 
 }

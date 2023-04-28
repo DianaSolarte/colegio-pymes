@@ -10,14 +10,14 @@ body{
 }
 
 .head {
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem 0.8rem;
+  padding: 1rem 1.5rem;
   background-color: $primary-color;
   color:$second-color;
+  text-align: center;
 }
 
 .Telefono{
@@ -27,12 +27,12 @@ body{
 
 #btn{
   font-size: 1rem;
-  background-color:#AB8713 ;
-  border: #AB8713;
+  background-color:#007bff;
+  border: #007bff;
 
 }
 #btn:hover {
-  background-color: #3e8e41; /* Cambiamos el color de fondo */
+  background-color: #0069d9;/* Cambiamos el color de fondo */
 }
 
 @media screen and (max-width: 700px) {

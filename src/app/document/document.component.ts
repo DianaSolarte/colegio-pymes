@@ -7,10 +7,14 @@ import { Programs} from  '../models/program.model';
   styleUrls: ['./document.component.scss']
 })
 export class DocumentComponent {
-  @Input() program: Programs ={
+  @Input() program : Programs = {
     id: '',
     name: '',
     description:'',
     image: ''
   };
+  constructor(){}
+  ngOnInit():void {
+
+  }
 }
